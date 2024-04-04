@@ -1,0 +1,120 @@
+2024-03-18T14:44:02.548+07:00  INFO 18016 --- [main] c.a.spring_test.SpringTestApplication    : Starting SpringTestApplication using Java 21.0.2 with PID 18016 (D:\Spring\spring_test\target\classes started by USER in D:\Spring\spring_test)
+2024-03-18T14:44:02.552+07:00  INFO 18016 --- [main] c.a.spring_test.SpringTestApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-18T14:44:04.012+07:00  INFO 18016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-18T14:44:04.160+07:00  INFO 18016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 2 JPA repository interfaces.
+2024-03-18T14:44:05.047+07:00  INFO 18016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-18T14:44:05.061+07:00  INFO 18016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18T14:44:05.061+07:00  INFO 18016 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-18T14:44:05.160+07:00  INFO 18016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18T14:44:05.161+07:00  INFO 18016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2544 ms
+2024-03-18T14:44:05.382+07:00 DEBUG 18016 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-03-18T14:44:05.904+07:00  INFO 18016 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-18T14:44:05.932+07:00  INFO 18016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-18T14:44:06.118+07:00  INFO 18016 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65b680b4
+2024-03-18T14:44:06.120+07:00  INFO 18016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-18T14:44:07.215+07:00  INFO 18016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-18T14:44:08.107+07:00  WARN 18016 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-18T14:44:08.298+07:00 DEBUG 18016 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-03-18T14:44:08.403+07:00 DEBUG 18016 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-03-18T14:44:08.475+07:00 DEBUG 18016 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-18T14:44:08.526+07:00 DEBUG 18016 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-18T14:44:09.241+07:00  INFO 18016 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-18T14:44:09.345+07:00  INFO 18016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-18T14:44:09.361+07:00  INFO 18016 --- [main] c.a.spring_test.SpringTestApplication    : Started SpringTestApplication in 7.417 seconds (process running for 7.951)
+2024-03-18T14:44:11.791+07:00  INFO 18016 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18T14:44:11.792+07:00  INFO 18016 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-18T14:44:11.793+07:00 DEBUG 18016 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-03-18T14:44:11.793+07:00 DEBUG 18016 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-03-18T14:44:11.794+07:00 DEBUG 18016 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-03-18T14:44:11.795+07:00 DEBUG 18016 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2d492d46
+2024-03-18T14:44:11.796+07:00 DEBUG 18016 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@435848de
+2024-03-18T14:44:11.796+07:00 DEBUG 18016 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-03-18T14:44:11.797+07:00  INFO 18016 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-03-18T14:44:17.382+07:00 DEBUG 18016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/categories/124", parameters={}
+2024-03-18T14:44:17.390+07:00 DEBUG 18016 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ardb.spring_test.controller.CategoriesController#categoriesById(int)
+2024-03-18T14:44:17.416+07:00  INFO 18016 --- [http-nio-8080-exec-2] c.a.spring_test.configuration.testAop    : get name method
+2024-03-18T14:44:17.879+07:00 DEBUG 18016 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-18T14:44:17.881+07:00 DEBUG 18016 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoryResponse[id=124, name=moto]]
+2024-03-18T14:44:17.896+07:00 DEBUG 18016 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-03-18T14:49:02.734+07:00  INFO 1452 --- [main] c.a.spring_test.SpringTestApplication    : Starting SpringTestApplication using Java 21.0.2 with PID 1452 (D:\Spring\spring_test\target\classes started by USER in D:\Spring\spring_test)
+2024-03-18T14:49:02.738+07:00  INFO 1452 --- [main] c.a.spring_test.SpringTestApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-18T14:49:04.159+07:00  INFO 1452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-18T14:49:04.307+07:00  INFO 1452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 2 JPA repository interfaces.
+2024-03-18T14:49:05.226+07:00  INFO 1452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-18T14:49:05.240+07:00  INFO 1452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18T14:49:05.241+07:00  INFO 1452 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-18T14:49:05.317+07:00  INFO 1452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18T14:49:05.318+07:00  INFO 1452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2506 ms
+2024-03-18T14:49:05.546+07:00 DEBUG 1452 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-03-18T14:49:06.053+07:00  INFO 1452 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-18T14:49:06.081+07:00  INFO 1452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-18T14:49:06.290+07:00  INFO 1452 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69cc49ec
+2024-03-18T14:49:06.292+07:00  INFO 1452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-18T14:49:07.414+07:00  INFO 1452 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-18T14:49:08.279+07:00  WARN 1452 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-18T14:49:08.459+07:00 DEBUG 1452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-03-18T14:49:08.547+07:00 DEBUG 1452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-03-18T14:49:08.617+07:00 DEBUG 1452 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-18T14:49:08.673+07:00 DEBUG 1452 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-18T14:49:09.419+07:00  INFO 1452 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-18T14:49:09.522+07:00  INFO 1452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-18T14:49:09.543+07:00  INFO 1452 --- [main] c.a.spring_test.SpringTestApplication    : Started SpringTestApplication in 7.335 seconds (process running for 7.823)
+2024-03-18T14:49:12.064+07:00  INFO 1452 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18T14:49:12.065+07:00  INFO 1452 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-18T14:49:12.066+07:00 DEBUG 1452 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-03-18T14:49:12.066+07:00 DEBUG 1452 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-03-18T14:49:12.066+07:00 DEBUG 1452 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-03-18T14:49:12.068+07:00 DEBUG 1452 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@34c3e307
+2024-03-18T14:49:12.069+07:00 DEBUG 1452 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@42626e86
+2024-03-18T14:49:12.070+07:00 DEBUG 1452 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-03-18T14:49:12.070+07:00  INFO 1452 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-03-18T14:49:18.845+07:00 DEBUG 1452 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/categories/124", parameters={}
+2024-03-18T14:49:18.857+07:00 DEBUG 1452 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ardb.spring_test.controller.CategoriesController#categoriesById(int)
+2024-03-18T14:49:18.893+07:00  INFO 1452 --- [http-nio-8080-exec-2] c.a.spring_test.configuration.testAop    : Get Method Name: 
+2024-03-18T14:49:19.332+07:00 DEBUG 1452 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-18T14:49:19.336+07:00 DEBUG 1452 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoryResponse[id=124, name=moto]]
+2024-03-18T14:49:19.355+07:00 DEBUG 1452 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-03-18T14:52:58.514+07:00  INFO 21800 --- [main] c.a.spring_test.SpringTestApplication    : Starting SpringTestApplication using Java 21.0.2 with PID 21800 (D:\Spring\spring_test\target\classes started by USER in D:\Spring\spring_test)
+2024-03-18T14:52:58.519+07:00  INFO 21800 --- [main] c.a.spring_test.SpringTestApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-03-18T14:52:59.969+07:00  INFO 21800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-18T14:53:00.128+07:00  INFO 21800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 2 JPA repository interfaces.
+2024-03-18T14:53:01.039+07:00  INFO 21800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-18T14:53:01.064+07:00  INFO 21800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-18T14:53:01.064+07:00  INFO 21800 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-18T14:53:01.151+07:00  INFO 21800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-18T14:53:01.152+07:00  INFO 21800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2544 ms
+2024-03-18T14:53:01.374+07:00 DEBUG 21800 --- [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-03-18T14:53:01.874+07:00  INFO 21800 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-18T14:53:01.897+07:00  INFO 21800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-18T14:53:02.066+07:00  INFO 21800 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b556a88
+2024-03-18T14:53:02.068+07:00  INFO 21800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-18T14:53:03.026+07:00  INFO 21800 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-18T14:53:03.867+07:00  WARN 21800 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-18T14:53:04.038+07:00 DEBUG 21800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 16 mappings in 'requestMappingHandlerMapping'
+2024-03-18T14:53:04.127+07:00 DEBUG 21800 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-03-18T14:53:04.195+07:00 DEBUG 21800 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-03-18T14:53:04.251+07:00 DEBUG 21800 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-03-18T14:53:04.963+07:00  INFO 21800 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-18T14:53:05.087+07:00  INFO 21800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-18T14:53:05.111+07:00  INFO 21800 --- [main] c.a.spring_test.SpringTestApplication    : Started SpringTestApplication in 7.098 seconds (process running for 7.573)
+2024-03-18T14:53:07.896+07:00  INFO 21800 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-18T14:53:07.897+07:00  INFO 21800 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-18T14:53:07.897+07:00 DEBUG 21800 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-03-18T14:53:07.897+07:00 DEBUG 21800 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-03-18T14:53:07.898+07:00 DEBUG 21800 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-03-18T14:53:07.899+07:00 DEBUG 21800 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2dbfb843
+2024-03-18T14:53:07.900+07:00 DEBUG 21800 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@38821ada
+2024-03-18T14:53:07.900+07:00 DEBUG 21800 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-03-18T14:53:07.901+07:00  INFO 21800 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-03-18T14:53:16.058+07:00 DEBUG 21800 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/categories/124", parameters={}
+2024-03-18T14:53:16.065+07:00 DEBUG 21800 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ardb.spring_test.controller.CategoriesController#categoriesById(int)
+2024-03-18T14:53:16.089+07:00  INFO 21800 --- [http-nio-8080-exec-2] c.a.spring_test.configuration.testAop    : Get Method Name: categoriesById
+2024-03-18T14:53:16.526+07:00 DEBUG 21800 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-18T14:53:16.528+07:00 DEBUG 21800 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoryResponse[id=124, name=moto]]
+2024-03-18T14:53:16.545+07:00 DEBUG 21800 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-03-18T14:54:41.705+07:00 DEBUG 21800 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/categories", parameters={}
+2024-03-18T14:54:41.706+07:00 DEBUG 21800 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.ardb.spring_test.controller.CategoriesController#categories()
+2024-03-18T14:54:41.707+07:00  INFO 21800 --- [http-nio-8080-exec-4] c.a.spring_test.configuration.testAop    : Get Method Name: categories
+2024-03-18T14:54:41.722+07:00 DEBUG 21800 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-03-18T14:54:41.724+07:00 DEBUG 21800 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoryResponse[id=124, name=moto]]]
+2024-03-18T14:54:41.726+07:00 DEBUG 21800 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
